@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// base
+@import "normalize";
+@import "variable";
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: red;
+  }
+}
+
+//layout
+
+.l-header {}
+
+.l-nav {}
+
+.l-top-main {}
+
+.l-main {}
+
+.l-side {}
+
+.l-bottom {}
