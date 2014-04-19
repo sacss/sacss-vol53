@@ -2135,3 +2135,18 @@ a {
 a:hover, a:active, a:focus {
   color: red;
 }
+
+.l-header {
+  background-color: #1f2769;
+}
+.l-header h1 {
+  color: white;
+}
+.l-header p {
+  color: #f1d624;
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}

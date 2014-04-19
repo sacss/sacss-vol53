@@ -17,7 +17,23 @@ a {
 
 //layout
 
-.l-header {}
+.l-header {
+  background-color: $colorBlue;
+
+  h1 {
+    color: $white;
+  }
+  p {
+    color: $colorOrange;
+  }
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.l-header
 
 .l-nav {}
 
