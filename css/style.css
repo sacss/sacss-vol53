@@ -2168,17 +2168,58 @@ a:hover, a:active, a:focus {
   margin-bottom: 15px;
 }
 .l-nav ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 .l-nav ul li {
-  width: 20%;
   float: left;
   text-align: center;
+  width: 20%;
 }
 .l-nav ul li a {
+  color: white;
   display: block;
   padding: 15px 0;
+}
+
+.mod-visual {
+  margin-bottom: 48px;
+}
+
+.top-block {
+  background-color: #5597dd;
+  float: left;
+  width: 450px;
+  border-radius: 4px;
+}
+.top-block:last-child {
+  float: right;
+  background-color: #478f18;
+}
+.top-block:last-child p a {
+  background-color: #478f18;
+}
+.top-block h2 {
   color: white;
+  font-size: 34px;
+  margin: 13px;
+  text-align: center;
+}
+.top-block p {
+  background-color: white;
+  color: #333333;
+  margin: 0 3px;
+  padding: 15px;
+}
+.top-block p:last-child {
+  padding-top: 0;
+  margin-bottom: 3px;
+}
+.top-block p a {
+  background-color: #5597dd;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-align: center;
 }

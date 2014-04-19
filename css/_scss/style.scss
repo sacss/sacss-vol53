@@ -50,25 +50,70 @@ a {
   background-color: $colorRed;
   margin-bottom: 15px;
   ul {
-    padding: 0;
     margin: 0;
+    padding: 0;
     list-style-type: none;
 
     li {
-      width: 20%;
       float: left;
       text-align: center;
+      width: 20%;
 
       a {
+        color: $white;
         display: block;
         padding: 15px 0;
-        color: $white;
       }
     }
   }
 }
 
-.l-top-main {}
+.mod-visual {
+  margin-bottom: 48px;
+}
+
+.top-block {
+  background-color: $colorLightBlue;
+  float: left;
+  width: 450px;
+  border-radius: 4px;
+  &:last-child {
+    float: right;
+    background-color: $colorGreen;
+
+    p {
+      a {
+        background-color: $colorGreen;
+      }
+    }
+  }
+
+  h2 {
+    color: $white;
+    font-size: 34px;
+    margin: 13px;
+    text-align: center;
+  }
+  p {
+    background-color: $white;
+    color: $black;
+    margin: 0 3px;
+    padding: 15px;
+
+    &:last-child {
+      padding-top: 0;
+      margin-bottom: 3px;
+    }
+
+    a {
+      background-color: $colorLightBlue;
+      color: $white;
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
 
 .l-main {}
 
