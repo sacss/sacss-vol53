@@ -2138,15 +2138,47 @@ a:hover, a:active, a:focus {
 
 .l-header {
   background-color: #1f2769;
+  border-bottom: 2px solid white;
 }
 .l-header h1 {
   color: white;
+  float: left;
+  font-size: 30px;
+  margin: 25px 0;
 }
 .l-header p {
   color: #f1d624;
+  float: right;
+  font-size: 30px;
+  margin: 25px 0;
 }
 
 .inner {
   width: 940px;
   margin: 0 auto;
+}
+.inner:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.l-nav {
+  background-color: #c02813;
+  margin-bottom: 15px;
+}
+.l-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.l-nav ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.l-nav ul li a {
+  display: block;
+  padding: 15px 0;
+  color: white;
 }
